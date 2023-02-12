@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Origin Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-6">
+        Welcome to
+        <span class="text-violet-600 font-semibold">Origin Bank.</span>
+      </h1>
+    </header>
+
+    <main>
+      <section class="w-full md:w-6/12 bg-blue-100 m-auto mt-12 p-8">
+        <h3 class="text-3xl font-medium mb-4">Please Login!</h3>
+        <div>
+          <input
+            class="w-full md:w-9/12 block mb-2 p-2"
+            id="user-email"
+            type="text"
+            placeholder="Your email address"
+          />
+          <input
+            class="w-full md:w-9/12 block mb-2 p-2"
+            id="user-password"
+            type="password"
+            placeholder="Your password"
+          />
+        </div>
+        <button
+          class="text-white font-medium bg-amber-400 hover:bg-blue-200 px-10 py-3"
+          id="btn-submit"
+        >
+          Submit
+        </button>
+      </section>
+    </main>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
